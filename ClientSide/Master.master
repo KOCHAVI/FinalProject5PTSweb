@@ -1,0 +1,79 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Master.master.cs" Inherits="Master"%>
+
+<!DOCTYPE html>
+
+<html style="font-size: 16px;" lang="en">
+<head runat="server">
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="keywords" content="Meet our design team, Design and DevelopmentFor Your Business, ​Digital design, What We Do">
+    <meta name="description" content="">
+    <link rel="stylesheet" href="nicepage.css" media="screen">
+    <script class="u-script" type="text/javascript" src="jquery.js" "="" defer=""></script>
+    <script class="u-script" type="text/javascript" src="nicepage.js" "="" defer=""></script>
+    <meta name="generator" content="Nicepage 4.17.10, nicepage.com">
+    <link id="u_theme_google_font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
+    <link id="u_page_google_font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i">
+    <script type="application/ld+json">{
+		"@context": "http://schema.org",
+		"@type": "Organization",
+		"name": "",
+		"logo": "images/Sellaway.png"
+    }</script>
+    <meta name="theme-color" content="#702bb1">
+    <meta property="og:title" content="Home">
+    <meta property="og:type" content="website">
+</head>
+<body class="u-body u-overlap u-xl-mode" data-lang="en">
+    <header class="u-clearfix u-sticky u-sticky-18c8 u-header u-header" id="sec-862d"><nav class="u-menu u-menu-hamburger u-offcanvas u-menu-1" data-responsive-from="XL">
+        <asp:Label ID="LBLCoins" runat="server" Text="" Font-Bold="true" Font-Size="Larger" ForeColor="Green"></asp:Label>
+        <div class="menu-collapse" style="font-size: 1rem; letter-spacing: 0px;">         
+          <a class="u-button-style u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-top-bottom-menu-spacing u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="#" style="padding: 14px 300px; font-size: calc(1em + 28px);">
+            <svg class="u-svg-link" viewBox="0 0 24 24"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#menu-hamburger"></use></svg>
+            <svg class="u-svg-content" version="1.1" id="menu-hamburger" viewBox="0 0 16 16" x="0px" y="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"><g><rect y="1" width="16" height="2"></rect><rect y="7" width="16" height="2"></rect><rect y="13" width="16" height="2"></rect>
+</g></svg>
+          </a>
+        </div>
+        <div class="u-custom-menu u-nav-container">
+          <ul class="u-nav u-unstyled u-nav-1"><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="#" style="padding: 10px 20px;">Home</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="#" style="padding: 10px 20px;">Register</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="#" style="padding: 10px 20px;">Login</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="#" style="padding: 10px 20px;">AdminPage</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="#" style="padding: 10px 1px 10px 20px;">BuyCoins</a>
+</li></ul>
+        </div>
+        <div class="u-custom-menu u-nav-container-collapse">
+          <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
+            <div class="u-inner-container-layout u-sidenav-overflow">
+              <div class="u-menu-close"></div>
+              <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2">
+     <li class="u-nav-item"><asp:HyperLink ID="HLHome" runat="server" NavigateUrl="~/Home.aspx" CssClass="u-button-style u-nav-link">Home</asp:HyperLink>
+</li><li class="u-nav-item"><asp:HyperLink ID="HLReg" runat="server" NavigateUrl="~/Register.aspx" CssClass="u-button-style u-nav-link">Register</asp:HyperLink>
+</li><li class="u-nav-item"><asp:HyperLink ID="HLLogIn" runat="server" NavigateUrl="~/Login.aspx" CssClass="u-button-style u-nav-link">Log In</asp:HyperLink>
+</li><li class="u-nav-item"><asp:HyperLink ID="HLAdmin" runat="server" NavigateUrl="~/AdminPage.aspx" CssClass="u-button-style u-nav-link">AdminPage</asp:HyperLink>
+</li><li class="u-nav-item"><asp:HyperLink ID="HLMyProducts" runat="server" NavigateUrl="~/MyProducts.aspx" CssClass="u-button-style u-nav-link">My Products</asp:HyperLink>
+</li><li class="u-nav-item"><asp:HyperLink ID="HLBuyCoins" runat="server" NavigateUrl="~/BuyCoins.aspx" CssClass="u-button-style u-nav-link">Buy Coins</asp:HyperLink>
+</li></ul>
+            </div>
+          </div>
+          <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
+        </div>
+      </nav><a href="Home.aspx" class="u-image u-logo u-image-1 u-hover" data-image-width="1200" data-image-height="675">
+        <img src="images/Sellaway.png" class="u-logo-image u-logo-image-1 u-hover-feature u-image" style="margin-top:-40px">
+      </a></header>
+    <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+    <footer class="u-align-center u-clearfix u-footer u-image u-footer" id="sec-a077" data-image-width="1980" data-image-height="1457"><div class="u-clearfix u-sheet u-sheet-1">
+        <h4 class="u-text u-text-palette-1-dark-1 u-text-1">רועי כו​כבי - 0507589131&nbsp; &nbsp;&nbsp;<span class="u-file-icon u-icon"><img src="images/159832.png" alt=""></span>
+        </h4>
+      </div></footer>
+</body>
+</html>
